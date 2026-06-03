@@ -213,7 +213,22 @@
   }
 
   .hero-visual {
-    min-height: 300px;
+    position: relative;
+    min-height: auto;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .carousel-container {
+    height: auto;
+    min-height: 320px;
+  }
+
+  .carousel-image {
+    max-width: 100%;
+    max-height: 45vh;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -470,4 +485,28 @@ button:hover {
   .site-nav.open .brand {
     display: none;
   }
+}
+
+/* About page styles */
+.about-hero {
+  max-width: 880px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.about-hero h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+.about-hero p {
+  color: #444;
+  line-height: 1.6;
 }
